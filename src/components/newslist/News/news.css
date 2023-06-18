@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.newsfeed > img {
+  width: 80px;
+}
+.views {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+}
+.newsfeed {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 2px 2px 5px black;
+  width: 500px;
+  gap: 20px;
+}
+.cards_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+}
+p {
+  font-size: 20px;
+  color: grey;
+}
+h5 {
+  font-size: 20px;
+}
+.news_description {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 5px;
+}
+a {
+  font-size: 19px;
+  color: rgb(0, 162, 255);
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  text-decoration-line: underline;
+}
+.artindustry {
+  box-shadow: 2px 2px 5px black;
+  width: 500px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.latest_views {
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+}
+.news_main {
+  width: 500px;
+}
+.cards img {
+  width: 80px;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.heading_main > h1 {
+  padding: 10px 0 10px 10px;
+}
+.heading_main {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  background-color: white;
+  box-shadow: 2px 2px 4px black;
+}
+.heading_main > img {
+  height: 25x;
+  width: 70px;
+  margin: 20px;
+  border-radius: 40%;
+}

@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.signinpage {
+  border: 2px solid grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  width: 60%;
+  margin: 90px 70px 0 150px;
+  padding: 30px;
+  box-shadow: 2px 2px 5px grey;
+  border: none;
+}
+.signinaccount {
+  padding: 20px 0 0 90px;
+}
+.signinaccount h3 {
+  font-size: 25px;
+}
+.info > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+.info {
+  padding: 40px;
+}
+input[type="email"],
+[type="password"] {
+  width: 200px;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+.signinaccount button {
+  font-size: 20px;
+  padding: 10px 25px;
+  margin: 20px;
+  background-color: rgb(63, 170, 164);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.signinaccount button:active {
+  color: black;
+}
+span {
+  color: green;
+  font-size: 20px;
+}

@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.lander_main {
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 64px;
+  gap: 30px;
+}
+.landerpage h1 {
+  color: blue;
+  text-shadow: 2px 2px 5px lightseagreen;
+}
+.lander_main p {
+  color: rgb(30, 111, 162);
+  padding: 6px;
+}
+.landerpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.landerpage img {
+  border-radius: 50%;
+  width: 600px;
+}
+.networkpage h3 {
+  color: blue;
+  text-shadow: 2px 2px 5px lightseagreen;
+  font-size: 60px;
+}
+.networkpage button {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  color: blue;
+  background-color: lightblue;
+  border: none;
+}
+.networkpage button:active {
+  color: black;
+}
+.networkpage {
+  border: 2px solid white;
+  box-shadow: 2px 2px 6px grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px;
+}
+.networkpage h4 {
+  padding: 5px;
+}
+@media (max-width: 1280px) {
+  .networkpage h3 {
+    font-size: 40px;
+  }
+  .networkpage p {
+    text-align: center;
+    font-size: 18px;
+  }
+  .networkpage button {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1142px) {
+  .networkpage h3 {
+    font-size: 30px;
+  }
+  .networkpage p {
+    justify-content: center;
+  }
+  .networkpage button {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1078px) {
+  .networkpage h3 {
+    font-size: 30px;
+  }
+  .networkpage p {
+    justify-content: center;
+  }
+  .networkpage button {
+    font-size: 20px;
+  }
+}
+@media (max-width: 1020px) {
+  .lander_main {
+    flex-direction: column;
+  }
+}
+@media (max-width: 899px) {
+  .networkpage p {
+    font-size: 25px;
+  }
+}
+@media (max-width: 660px) {
+  .networkpage p {
+    font-size: 16px;
+  }
+  .networkpage h3 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 660px) {
+  .landerpage img {
+    width: 400px;
+  }
+}
+@media (max-width: 480px) {
+  .networkpage p {
+    font-size: 16px;
+  }
+  .networkpage h3 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 660px) {
+  .landerpage img {
+    width: 300px;
+  }
+}

@@ -1,0 +1,149 @@
+.footer_main {
+  background-image: url(../../assets/images/footerimg.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 350px;
+}
+.footerimage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 10px;
+}
+.footerimage img {
+  width: 50px;
+}
+.footerimage > button {
+  height: 60px;
+  border-radius: 50%;
+  background-color: navy;
+  border: none;
+}
+.footerimage > button:active {
+  background-color: blue;
+}
+.footer_main {
+  display: flex;
+  flex-direction: column;
+}
+.overviewlinks nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 470px;
+  font-size: 25px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  color: red;
+}
+.arrow {
+  border: solid red;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.links {
+  display: flex;
+  flex-direction: row;
+}
+.certificationlinks nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 25px;
+}
+.footer_main > p,
+a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+#email {
+  font-size: 20px;
+  padding: 5px;
+}
+.footer_main a:hover {
+  color: red;
+}
+@media (max-width: 1237px) {
+  .links {
+    flex-wrap: wrap;
+    padding: 0 250px;
+  }
+  .overviewlinks nav {
+    padding: 0 100px 0 180px;
+  }
+  #email {
+    padding: 20px;
+  }
+}
+@media (max-width: 1056px) {
+  .links {
+    flex-wrap: wrap;
+  }
+  .overviewlinks nav {
+    padding: 0 100px;
+  }
+}
+@media (max-width: 974px) {
+  .links {
+    flex-direction: row;
+    padding: 50px;
+  }
+  #email {
+    padding: 1px;
+  }
+  .overviewlinks {
+    padding: 0 0 0 180px;
+  }
+}
+@media (max-width: 753px) {
+  .links {
+    flex-direction: row;
+    padding: 0 10px;
+  }
+  .overviewlinks {
+    padding: 0 30px 0 40px;
+  }
+  #email {
+    padding: 30px;
+  }
+}
+@media (max-width: 564px) {
+  .links {
+    flex-direction: row;
+    padding: 0 5px 0 0;
+  }
+  .overviewlinks {
+    padding: 0 20px 0 0;
+  }
+}
+@media (max-width: 499px) {
+  .links {
+    flex-direction: row;
+  }
+  .overviewlinks {
+    padding: 0 2px;
+  }
+}
+@media (max-width: 480px) {
+  .links {
+    flex-wrap: wrap;
+    padding: 0 25px;
+    gap: 100px;
+  }
+  .overviewlinks nav {
+    padding: 0 2px;
+  }
+}

@@ -1,0 +1,34 @@
+.reviewscards img {
+  width: 50px;
+}
+.reviews_main {
+  box-shadow: 2px 2px 2px 2px black;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  gap: 20px;
+  background-color: white;
+}
+.reviewscards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 80px;
+  padding: 100px 200px;
+}
+.reviews_main > p {
+  font-size: 18px;
+  text-align: center;
+}
+.reviewsheading {
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(66, 66, 139);
+}
+.reviewsheading > h1 {
+  font-size: 50px;
+  color: white;
+}

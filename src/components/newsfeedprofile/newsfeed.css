@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.newsfeed_main {
+  width: 90%;
+  margin: 20px 100px;
+  background-color: white;
+  box-shadow: 2px 2px 4px black;
+  padding: 10px 0;
+}
+.header_main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1050px;
+  padding: 20px;
+  width: 100%;
+}
+.myprofile {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+.myprofile > img {
+  width: 60px;
+}
+span {
+  color: black;
+  font-size: 25px;
+}
+p {
+  color: grey;
+  font-size: 20px;
+}
+.header_main > button {
+  padding: 10px 30px;
+  font-size: 30px;
+  border: none;
+  background-image: linear-gradient(rgb(64, 184, 232), white);
+}
+.header_main > button:active {
+  color: white;
+}
+.heropage {
+  background-image: url(../../assets/images/bgimage.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 500px;
+}
+.bio {
+  display: flex;
+  flex-direction: row;
+  gap: 400px;
+  padding: 30px;
+}
+.description,
+.views {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  gap: 20px;
+}
+.description > h5 {
+  font-size: 30px;
+}
+.posts img {
+  width: 25px;
+}
+.posts b {
+  color: black;
+}
+.posts {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 80px;
+  padding: 0 70px;
+}
+.posts > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.posts button {
+  border: none;
+  font-size: 20px;
+  background-color: white;
+  color: grey;
+}
+.posts > button:hover {
+  color: blue;
+}
+.like,
+.tweet,
+.posts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reactions {
+  display: flex;
+  gap: 100px;
+}
+#add {
+  border: 2px solid grey;
+  padding: 10px;
+}

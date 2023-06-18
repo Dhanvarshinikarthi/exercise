@@ -1,0 +1,58 @@
+.projects_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  background-color: rgb(25, 25, 76);
+}
+.projects_header h1 {
+  color: white;
+  font-size: 40px;
+}
+.projects_header > button {
+  padding: 0 20px;
+  font-size: 25px;
+  background-color: rgb(66, 66, 139);
+  color: white;
+  border: none;
+}
+
+.projects_header > button:active {
+  color: red;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 60px;
+}
+span {
+  color: rgb(254, 44, 44);
+}
+nav > a {
+  color: white;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+#home {
+  color: rgb(255, 8, 8);
+}
+nav > a:hover {
+  color: rgb(255, 8, 8);
+}
+@media (max-width: 700px) {
+  .projects_header nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+@media (min-width: 480px) {
+  .projects_header {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}

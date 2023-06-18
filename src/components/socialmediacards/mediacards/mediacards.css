@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.profile_main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+}
+.profileinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 400px;
+  padding: 50px;
+  background-color: white;
+  position: relative;
+  z-index: -1;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 90px;
+}
+.name > img {
+  width: 30px;
+}
+.name,
+.chat {
+  display: flex;
+  flex-direction: row;
+}
+.name > h2 {
+  font-size: 30px;
+}
+
+.profileinfo > p {
+  font-size: 20px;
+  color: grey;
+}
+#followers {
+  color: black;
+}
+#bio {
+  color: blue;
+  font-size: 25px;
+}
+.chat > h5 {
+  font-size: 20px;
+}
+#msg {
+  font-size: 20px;
+  padding: 5px;
+  color: blue;
+  background-color: rgb(154, 250, 252);
+  border: none;
+}
+#msg:hover {
+  color: black;
+}
+.chat {
+  display: flex;
+  gap: 40px;
+}
+#followbtn > button:active {
+  color: black;
+}
+#followbtn {
+  font-size: 30px;
+  padding: 5px;
+  border-color: rgb(0, 204, 255);
+  color: rgb(11, 192, 228);
+}
+
+.user {
+  border-radius: 50%;
+  border: 9px solid lightgray;
+  background-color: white;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  top: 80px;
+  z-index: 1;
+}
+.cardsheading img {
+  width: 50px;
+  height: 20px;
+  margin: 10px 0 0;
+  border-radius: 30%;
+}
+.cardsheading {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  width: 600px;
+  margin: 30px;
+  gap: 10px;
+}

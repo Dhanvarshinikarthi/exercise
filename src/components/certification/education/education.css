@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.education_main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.eduinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 320px;
+  padding: 60px;
+  background-color: rgb(115, 205, 241);
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 90px;
+}
+.graduation {
+  padding: 0 63px;
+  background-image: linear-gradient(blue, skyblue);
+}
+.graduation > img {
+  width: 195px;
+  border-radius: 50%;
+}
+.eduinfo h2 {
+  color: red;
+  font-size: 30px;
+}
+
+.eduinfo h4 {
+  font-size: 20px;
+  color: blue;
+}
+.eduinfo b {
+  font-size: 20px;
+  color: red;
+}
+.cards_main {
+  background-image: linear-gradient(rgb(1, 1, 65), rgb(132, 132, 233));
+  padding: 50px 30px 0;
+  font-size: 30px;
+}
+.cards_main > h1 {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+}
+@media (max-width: 1428px) {
+  .cards {
+    flex-wrap: wrap;
+  }
+}

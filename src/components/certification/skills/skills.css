@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.skills_main {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding: 40px;
+}
+.container {
+  width: 90%;
+  background-color: rgb(178, 178, 249);
+}
+.skills {
+  text-align: right;
+  padding: 10px 0;
+  color: white;
+}
+.html {
+  width: 90%;
+  background-color: rgb(91, 91, 247);
+}
+.css {
+  width: 80%;
+  background-color: rgb(91, 91, 247);
+}
+.js {
+  width: 60%;
+  background-color: rgb(91, 91, 247);
+}
+.skills_main > h1 {
+  text-align: center;
+  color: navy;
+  font-size: 60px;
+  font-family: "Courier New", Courier, monospace;
+}
+.skills_main p {
+  font-size: 40px;
+  color: red;
+  text-align: center;
+}
+.skilllist {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}

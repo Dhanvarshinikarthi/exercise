@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+form {
+  border: 2px solid grey;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  border: none;
+  box-shadow: 2px 2px 5px grey;
+}
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.detail > input,
+textarea,
+button {
+  padding: 4px;
+  font-size: 16px;
+  outline: none;
+}
+.detail > button {
+  color: white;
+  background-color: lightskyblue;
+  border: none;
+}
+.post {
+  display: flex;
+  flex-direction: column;
+
+  gap: 50px;
+}

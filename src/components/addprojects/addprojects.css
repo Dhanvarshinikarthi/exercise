@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.projects_main {
+  box-shadow: 2px 2px 5px black;
+  width: 500px;
+  padding: 20px;
+}
+.addprojects {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.addprojects > input,
+.addprojects > textarea {
+  padding: 10px 10px;
+}
+.preview {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+form {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
